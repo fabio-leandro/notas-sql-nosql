@@ -1,29 +1,28 @@
 <h1>Notas Bancos de Dados SQL e NOSQL</h1>
 
-SQL
+<h3>SQL</h3>
 
-Structured Query Language ou SQL é a linguagem mais conhecida do mundo e também a mais popular. É utilizada para executar comandos em Banco de Dados Relacionais, isto é, baseado em tabelas. É por meio dela que criamos databases, tabelas, colunas, indices, garantimos e revogamos privilégios a usuários e consultamos os dados armazenados no banco de dados.
-​
-SQL é uma linguagem declarativa dividida em conjuntos de comandos Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), Transactional Control Language (TCL) e Data Query Language (DQL).
-​
-Vamos descrever os conjuntos de comandos da linguagem SQL utilizando como exemplo o PostgreSQL:
-​
+<p>Structured Query Language ou SQL é a linguagem mais conhecida do mundo e também a mais popular. É utilizada para executar comandos em Banco de Dados Relacionais, isto é, baseado em tabelas. É por meio dela que criamos databases, tabelas, colunas, indices, garantimos e revogamos privilégios a usuários e consultamos os dados armazenados no banco de dados.</p>
 
-DDL
-​
-Linguagem de Definição de Dados ou DDL são comandos que permitem ao usuário definir as novas tabelas e os elementos que serão associados a elas. Ela é responsável pelos comandos de criação e alteração no banco de dados.
-​Os principais comandos DDL são:
+<p>SQL é uma linguagem declarativa dividida em conjuntos de comandos Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), Transactional Control Language (TCL) e Data Query Language (DQL).</p>
 
-CREATE
-​
+<p>Comandos da linguagem SQL com PostgreSQL:</P>
+
+<h4>DDL</h4>
+
+<p>Linguagem de Definição de Dados ou DDL são comandos que permitem ao usuário definir as novas tabelas e os elementos que serão associados a elas. Ela é responsável pelos comandos de criação e alteração no banco de dados.</p>
+
+<h4>CREATE</h4>
+
 Comando utilizado para criar a estrutura dos dados e tabelas.
-CREATE TABLE nome_tabela (
-  id SERIAL NOT NULL,
-  coluna_01 varchar(40),
-  coluna_02 numeric (16,2),
-  coluna_03 date
-);
-​
+
+  CREATE TABLE nome_tabela (
+    id SERIAL NOT NULL,
+    coluna_01 varchar(40),
+    coluna_02 numeric (16,2),
+    coluna_03 date
+  );
+
 
 ALTER
 ​
