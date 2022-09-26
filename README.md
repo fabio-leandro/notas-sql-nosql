@@ -2,6 +2,14 @@
 
 <h3>SQL</h3>
 
+<br/>
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+<br/>
+
 <p>Structured Query Language ou SQL é a linguagem mais conhecida do mundo e também a mais popular. É utilizada para executar comandos em Banco de Dados Relacionais, isto é, baseado em tabelas. É por meio dela que criamos databases, tabelas, colunas, indices, garantimos e revogamos privilégios a usuários e consultamos os dados armazenados no banco de dados.</p>
 
 <p>SQL é uma linguagem declarativa dividida em conjuntos de comandos Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), Transactional Control Language (TCL) e Data Query Language (DQL).</p>
