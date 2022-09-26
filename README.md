@@ -14,55 +14,49 @@
 
 <h4>CREATE</h4>
 
-Comando utilizado para criar a estrutura dos dados e tabelas.
-
+<p>Comando utilizado para criar a estrutura dos dados e tabelas.</p>
+<br/>
   CREATE TABLE nome_tabela (
     id SERIAL NOT NULL,
     coluna_01 varchar(40),
     coluna_02 numeric (16,2),
     coluna_03 date
   );
+<br/>
 
+<h4>ALTER/h4>
 
-ALTER
-​
-Comando utilizado para adicionar, excluir ou modificar as colunas de uma tabela existente.
-ALTER TABLE nome_tabela ADD coluna_04 varchar(50);
-​
+  <p>Comando utilizado para adicionar, excluir ou modificar as colunas de uma tabela existente.</p>
+  <p>ALTER TABLE nome_tabela ADD coluna_04 varchar(50);</p>
 
-DROP
-​
-Comando utilizado para excluir estrutura de tabelas.
-DROP TABLE nome_tabela;
-​
+<h4>DROP</h4>
 
-DML
-​
-Linguagem de Manipulação de Dados ou DML são comandos utilizados para a recuperação, inclusão, remoção e modificação de informações em bancos de dados.​Os principais comandos DML são:
+  <p>Comando utilizado para excluir estrutura de tabelas.</p>
+  <p>DROP TABLE nome_tabela;</p>
 
-INSERT
-​
-Comando utilizado para inserção de registros no banco de dados.
-INSERT INTO nome_tabela VALUES ('valor_coluna_01','valor_coluna_02','valor_coluna_03','valor_coluna_04');
-​
+  <h4>DML</h4>
 
-UPDATE
-​
-Comando utilizado para alteração de registro no banco de dados.
-UPDATE nome_tabela
-SET coluna_04 = 'novo_valor_coluna_04' 
-WHERE id = 20;
-​
+<p>Linguagem de Manipulação de Dados ou DML são comandos utilizados para a recuperação, inclusão, remoção e modificação de informações em bancos de dados.​Os principais comandos DML são:</p>
 
-DELETE
-​
-Comando utilizado para excluir registro no banco de dados.
-DELETE FROM nome_tabela WHERE id = 20;
-​
+  <h4>INSERT</h4>
 
-DCL
-​
-Linguagem de Controle de Dados ou DCL são comandos utilizados para controlar o acesso e gerenciar permissões de usuários no banco de dados.​                                   Os principais comandos DCL são:
+<p>Comando utilizado para inserção de registros no banco de dados.</p>
+<p>INSERT INTO nome_tabela VALUES ('valor_coluna_01','valor_coluna_02','valor_coluna_03','valor_coluna_04');</p>
+
+<h4>UPDATE</h4>
+
+  <p>Comando utilizado para alteração de registro no banco de dados.</p>
+  <p>UPDATE  nome_tabela     SET coluna_04 = 'novo_valor_coluna_04'     WHERE id = 20;</p>
+
+  <h4>DELETE</h4>
+  
+  <p>Comando utilizado para excluir registro no banco de dados.</p>
+  <p>DELETE FROM nome_tabela WHERE id = 20;</p>
+
+  <h4>DCL</h4>
+  
+<p>Linguagem de Controle de Dados ou DCL são comandos utilizados para controlar o acesso e gerenciar permissões de usuários no banco de dados.</P>
+  <p>Os principais comandos DCL são:</P>
 
 GRANT
 ​
