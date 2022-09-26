@@ -1,4 +1,4 @@
-<dNotas Bancos de Dados SQL e NOSQL
+Notas Bancos de Dados SQL e NOSQL
 =================================
 
 O que é um Banco SQL?
@@ -64,12 +64,14 @@ Os bancos de dados NoSQL são ideais para muitos aplicativos modernos, como disp
 
 SQL (relacional) vs. NoSQL (não relacional)
 -------------------------------------------
+|ITEM | SQL | NOSQL|
+|------------------|
+|BOLA |BOLA |Bola  |
 
-ITEM
 
-SQL
 
-NOSQL
+
+
 
 Cargas de trabalho ideais
 
